@@ -42,3 +42,23 @@ header {
     padding-bottom: .5rem;
     border-bottom: 2px solid #000;
 }
+
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 88vh;
+}
+
+#presentation p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#my-name {
+    font-weight: bolder;
+}
+
+#img-container {
+    width: 150px;
+}
