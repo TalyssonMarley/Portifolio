@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
     font-family: "Ubuntu", sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #000 0, #000 60%, #9a0eb6 0, #9a0eb6 100%);
 }
 
 html {
@@ -15,12 +20,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 1px 10px #4f4f4f;
     height: 12vh;
 }
 
 #logo img {
     width: 40px;
+    color: #fff;
 }
 
 #nav-list li {
@@ -32,33 +37,58 @@ header {
 
 #nav-list li a {
     text-decoration: none;
-    color: #000;
-    letter-spacing: 2px;
+    color: #fff;
+    letter-spacing: 1px;
     transition: .5s;
 }
 
 #nav-list li a:hover {
     font-size: 18px;
     padding-bottom: .5rem;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
 }
 
-#presentation {
+#home {
+    height: 88vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 88vh;
 }
 
-#presentation p {
-    font-size: 30px;
-    font-weight: 400;
+#presentation p  {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 #my-name {
-    font-weight: bolder;
+    color: #9a0eb6;
+    font-size: 38px;
 }
 
-#img-container {
+#knowMoreBtn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#knowMoreBtn {
+    width: 175px;
+    height: 40px;
+    background: none;
+    border: solid #9a0eb6 1px;
+    color: #9a0eb6;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+    transition: .4s;
+}
+
+#knowMoreBtn:hover {
+    background-color: #9a0eb6;
+    color: #fff;
+}
+
+#img-container img {
     width: 150px;
 }
