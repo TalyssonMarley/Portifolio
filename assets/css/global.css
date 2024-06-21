@@ -120,6 +120,7 @@ html {
     height: 300px;
     border-radius: 8px;
     box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, .6);
+    transition: .8s;
 }
 
 .tech-icon {
@@ -135,4 +136,8 @@ html {
 .tech-description {
     padding: 1.5rem;
     font-size: 18px;
+}
+
+.cards:hover {
+    background: #202020;
 }
