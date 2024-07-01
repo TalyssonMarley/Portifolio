@@ -167,3 +167,10 @@ html {
 .cards:hover {
     background: #202020;
 }
+
+#projects {
+    background: var(--global-Secondary-color);
+    height: 88vh;
+    display: flex;
+    align-items: center;
+}
