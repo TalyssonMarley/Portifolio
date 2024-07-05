@@ -80,27 +80,13 @@ html {
     font-size: 38px;
 }
 
-#contactBtn-container {
+.socialMedia-container {
     display: flex;
     justify-content: center;
 }
 
-#contactMeBtn {
-    width: 175px;
-    height: 40px;
-    background: none;
-    border: solid #9a0eb6 1px;
-    color: #9a0eb6;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: lighter;
-    transition: .4s;
-    cursor: pointer;
-}
-
-#contactMeBtn:hover {
-    background: #9a0eb6;
-    color: #fff;
+.socialMedia-icon i {
+    font-size: 30px;
 }
 
 #img-container img {
