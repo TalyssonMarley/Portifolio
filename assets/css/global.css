@@ -178,3 +178,40 @@ html {
     height: 250px;
     border-radius: 10px;
 }
+
+#contacts {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: var(--global-primary-color);
+}
+
+.title-footer {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-nav li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#footer-nav li a {
+    text-decoration: none;
+    transition: .3s;
+}
+
+#footer-nav li a:hover {
+    color: #808080;
+}
+
+#medias-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#medias-container i{
+    font-size: 25px;
+}
