@@ -105,7 +105,7 @@ html {
     padding: 2rem;
 }
 
-.section-title {
+#about-title {
     font-size: 25px;
 }
 
@@ -157,6 +157,24 @@ html {
 #projects {
     background: var(--global-Secondary-color);
     height: 88vh;
+}
+
+#projects-title {
     display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 28px;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+}
+
+.project-demo-card {
+    background: var(--global-primary-color);
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
 }
