@@ -29,6 +29,7 @@ html {
     position: fixed;
     left: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .scrolled {
@@ -87,6 +88,11 @@ html {
 
 .socialMedia-icon i {
     font-size: 30px;
+}
+
+.github-icon:hover {
+    transition: .8s;
+    color: #9a0eb6;
 }
 
 #img-container img {
