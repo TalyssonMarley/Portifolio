@@ -121,7 +121,7 @@ html {
 
 .github-icon:hover {
     transition: .8s;
-    color: #7523f1;
+    color: rgba(138, 65, 247, 0.7);
 }
 
 #img-container img {
