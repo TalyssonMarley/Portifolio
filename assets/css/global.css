@@ -101,7 +101,7 @@ html {
 
 @keyframes blink {
     40% {
-        border-color: #808080;
+        border-color: rgb(128, 128, 128, 0.3);
     }
 }
 
@@ -121,7 +121,7 @@ html {
 
 .github-icon:hover {
     transition: .8s;
-    color: #9a0eb6;
+    color: #7523f1;
 }
 
 #img-container img {
