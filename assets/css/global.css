@@ -112,7 +112,7 @@ html {
 
 .socialMedia-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .socialMedia-icon i {
@@ -121,7 +121,12 @@ html {
 
 .github-icon:hover {
     transition: .8s;
-    color: rgba(138, 65, 247, 0.7);
+    color: rgba(138, 65, 247, 2);
+}
+
+.linkedin-icon:hover {
+    transition: .8s;
+    color: rgb(0, 119, 181, 1.5);
 }
 
 #img-container img {
