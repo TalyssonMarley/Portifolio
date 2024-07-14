@@ -229,13 +229,36 @@ html {
     border-radius: 10px;
 }
 
+#leadMore-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#leadMore-btn {
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    background: #9a0eb6;
+    cursor: pointer;
+}
+
+#leadMore-btn:hover {
+    transition: 0.3s ease-in-out;
+    background-color: rgb(154, 14, 182, .8);
+    color: rgb(255, 255, 255, 0.6);
+}
+
 #contacts {
     height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background: var(--global-primary-color);
-}
+}       
 
 .title-footer {
     margin: 28px;
