@@ -230,7 +230,7 @@ html {
 }
 
 #contacts {
-    height: 20vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -244,8 +244,10 @@ html {
 }
 
 #footer-nav li{
-    display: inline-block;
-    margin-left: 15px;
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-nav li a {
